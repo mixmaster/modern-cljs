@@ -1,5 +1,6 @@
 ;; create the main project namespace
-(ns modern-cljs.core)
+(ns modern-cljs.core
+  (:require [modern-cljs.login]))
 
 ;; enable cljs to print to the JS console of the browser
 (enable-console-print!)
